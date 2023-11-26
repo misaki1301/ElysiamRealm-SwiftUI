@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F56983F129598DB6007AB85A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56983F029598DB6007AB85A /* Color.swift */; };
 		F572A8252958D82F009FCCDC /* ElysiamRealmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572A8242958D82F009FCCDC /* ElysiamRealmApp.swift */; };
 		F572A8272958D82F009FCCDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572A8262958D82F009FCCDC /* ContentView.swift */; };
 		F572A8292958D832009FCCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F572A8282958D832009FCCDC /* Assets.xcassets */; };
@@ -16,6 +17,11 @@
 		F572A83B2958D832009FCCDC /* ElysiamRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572A83A2958D832009FCCDC /* ElysiamRealmTests.swift */; };
 		F572A8452958D832009FCCDC /* ElysiamRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572A8442958D832009FCCDC /* ElysiamRealmUITests.swift */; };
 		F572A8472958D832009FCCDC /* ElysiamRealmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572A8462958D832009FCCDC /* ElysiamRealmUITestsLaunchTests.swift */; };
+		F572A8552958DC99009FCCDC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F572A8542958DC99009FCCDC /* Kingfisher */; };
+		F572A85729593AEA009FCCDC /* ValkyrieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572A85629593AEA009FCCDC /* ValkyrieCard.swift */; };
+		F572A85A29594FDA009FCCDC /* Valkyrie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572A85929594FDA009FCCDC /* Valkyrie.swift */; };
+		F572A85D295953D9009FCCDC /* ValkyrieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572A85C295953D9009FCCDC /* ValkyrieRepository.swift */; };
+		F5F9B4DA295C445A002CD34B /* CarouselText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F9B4D9295C445A002CD34B /* CarouselText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F56983F029598DB6007AB85A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F572A8212958D82F009FCCDC /* ElysiamRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElysiamRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F572A8242958D82F009FCCDC /* ElysiamRealmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElysiamRealmApp.swift; sourceTree = "<group>"; };
 		F572A8262958D82F009FCCDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +55,10 @@
 		F572A8402958D832009FCCDC /* ElysiamRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElysiamRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F572A8442958D832009FCCDC /* ElysiamRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElysiamRealmUITests.swift; sourceTree = "<group>"; };
 		F572A8462958D832009FCCDC /* ElysiamRealmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElysiamRealmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F572A85629593AEA009FCCDC /* ValkyrieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValkyrieCard.swift; sourceTree = "<group>"; };
+		F572A85929594FDA009FCCDC /* Valkyrie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valkyrie.swift; sourceTree = "<group>"; };
+		F572A85C295953D9009FCCDC /* ValkyrieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValkyrieRepository.swift; sourceTree = "<group>"; };
+		F5F9B4D9295C445A002CD34B /* CarouselText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F572A8552958DC99009FCCDC /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F56983EF29598DA6007AB85A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F56983F029598DB6007AB85A /* Color.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		F572A8182958D82F009FCCDC = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +118,11 @@
 		F572A8232958D82F009FCCDC /* ElysiamRealm */ = {
 			isa = PBXGroup;
 			children = (
+				F5F9B4D8295C441F002CD34B /* Views */,
+				F56983EF29598DA6007AB85A /* Utils */,
+				F572A85B295953BD009FCCDC /* Repositories */,
+				F572A85829594F5F009FCCDC /* Models */,
 				F572A8242958D82F009FCCDC /* ElysiamRealmApp.swift */,
-				F572A8262958D82F009FCCDC /* ContentView.swift */,
 				F572A8282958D832009FCCDC /* Assets.xcassets */,
 				F572A82D2958D832009FCCDC /* Persistence.swift */,
 				F572A82F2958D832009FCCDC /* ElysiamRealm.xcdatamodeld */,
@@ -133,6 +156,32 @@
 			path = ElysiamRealmUITests;
 			sourceTree = "<group>";
 		};
+		F572A85829594F5F009FCCDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F572A85929594FDA009FCCDC /* Valkyrie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F572A85B295953BD009FCCDC /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F572A85C295953D9009FCCDC /* ValkyrieRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F5F9B4D8295C441F002CD34B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F572A85629593AEA009FCCDC /* ValkyrieCard.swift */,
+				F572A8262958D82F009FCCDC /* ContentView.swift */,
+				F5F9B4D9295C445A002CD34B /* CarouselText.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +198,9 @@
 			dependencies = (
 			);
 			name = ElysiamRealm;
+			packageProductDependencies = (
+				F572A8542958DC99009FCCDC /* Kingfisher */,
+			);
 			productName = ElysiamRealm;
 			productReference = F572A8212958D82F009FCCDC /* ElysiamRealm.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +273,9 @@
 				Base,
 			);
 			mainGroup = F572A8182958D82F009FCCDC;
+			packageReferences = (
+				F572A8532958DC99009FCCDC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F572A8222958D82F009FCCDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,9 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F572A85729593AEA009FCCDC /* ValkyrieCard.swift in Sources */,
+				F572A85D295953D9009FCCDC /* ValkyrieRepository.swift in Sources */,
 				F572A82E2958D832009FCCDC /* Persistence.swift in Sources */,
 				F572A8272958D82F009FCCDC /* ContentView.swift in Sources */,
+				F5F9B4DA295C445A002CD34B /* CarouselText.swift in Sources */,
 				F572A8312958D832009FCCDC /* ElysiamRealm.xcdatamodeld in Sources */,
+				F56983F129598DB6007AB85A /* Color.swift in Sources */,
+				F572A85A29594FDA009FCCDC /* Valkyrie.swift in Sources */,
 				F572A8252958D82F009FCCDC /* ElysiamRealmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +651,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F572A8532958DC99009FCCDC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F572A8542958DC99009FCCDC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F572A8532958DC99009FCCDC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F572A82F2958D832009FCCDC /* ElysiamRealm.xcdatamodeld */ = {
